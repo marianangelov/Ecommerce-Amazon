@@ -34,7 +34,8 @@ function App() {
             <Link to="/">amazona</Link>
           </div>
           <div className="header-links">
-            <a href="cart.html">Cart</a>
+            {/* <a href="cart.html">Cart</a> */}
+            <Link to="/cart">Cart</Link>
             {userInfo ? (
               <Link to="/profile">{userInfo.name}</Link>
             ) : (
@@ -65,6 +66,15 @@ function App() {
 
             <li>
               <Link to="/category/Shirts">Shirts</Link>
+            </li>
+            <li>
+              <Link to="/category/Sport">Sport</Link>
+            </li>
+            <li>
+              <Link to="/category/Electronic">Electronic</Link>
+            </li>
+            <li>
+              <Link to="/category/Home-Improvement">Home Improvement</Link>
             </li>
           </ul>
         </aside>

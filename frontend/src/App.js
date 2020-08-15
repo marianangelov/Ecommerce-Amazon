@@ -95,7 +95,7 @@ function App() {
             <Route path="/" exact={true} component={HomeScreen} />
           </div>
         </main>
-        <footer className="footer">All right reserved.</footer>
+        <footer className="footer">SoftUni project. By M.Angelov</footer>
       </div>
     </BrowserRouter>
   );
